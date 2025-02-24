@@ -1,0 +1,78 @@
+/* UserList.css */
+
+/* General Styles */
+.header1 {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Table Head */
+  thead {
+    background: #007bff;
+    color: white;
+  }
+  
+  th {
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  /* Table Body */
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Table Row Hover Effect */
+  tbody tr:hover {
+    background: #f1f1f1;
+    transition: 0.3s;
+  }
+  
+  /* Button Styles */
+  button {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #c82333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    table {
+      width: 100%;
+      display: block;
+      overflow-x: auto;
+    }
+    th, td {
+      padding: 8px;
+    }
+  }
+  

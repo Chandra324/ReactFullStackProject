@@ -1,0 +1,45 @@
+/* Main container styling */
+.header {
+  width: 100%;
+  max-width: 420px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(52, 205, 90, 0.2);
+  text-align: center;
+}
+
+/* Title styling */
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form input styling */
+.header input{
+  width: 95%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #fff3f3;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Button styling */
+.header {
+  width: 100%;
+  padding: 12px;
+  background-color: #eaeef1;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+
